@@ -1,6 +1,6 @@
 const express = require('express')
 const app = express()
-const PORT
+const PORT = 8000
 
 const mopeds = {
     'puch': {
