@@ -20,7 +20,7 @@ const mopeds = {
         'yearsProduced': 0,
         'colors': 'unknown',
         'manufacturedLocation': 'unknown'
-}     
+    }     
 }  
 
 app.get('/', (request, response)=>{
