@@ -27,6 +27,11 @@ app.get('/', (request, response)=>{
     response.sendFile(__dirname + '/index.html')
 })
 
+app.get('/api', (request, response)=>{
+    response.json( mopeds)
+  
+})
+
 app.get('/api/:name', (request, response)=>{
     const mopedName = request.params.name.toLowerCase()
     if ( mopeds[mopedName] ){
